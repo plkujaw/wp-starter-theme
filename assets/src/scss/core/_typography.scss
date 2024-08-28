@@ -1,0 +1,12 @@
+body {
+  font-family: $brand-font-1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility; // aestheticallyloyal.com/public/optimize-legibility/
+  -webkit-text-size-adjust: 100%; // Prevents iOS orientation font resize bug
+}
+
+a,
+p {
+  font-size: 1em;
+}

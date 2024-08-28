@@ -1,0 +1,34 @@
+$fontsDir: '../../fonts/';
+
+@font-face {
+	font-family: 'Lato';
+	src: url('#{$fontsDir}Lato-Regular.woff2') format('woff2'),
+	url('#{$fontsDir}Lato-Regular.woff') format('woff'),
+	url('#{$fontsDir}Lato-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Lato';
+	src: url('#{$fontsDir}Lato-Hairline.woff2') format('woff2'),
+	url('#{$fontsDir}Lato-Hairline.woff') format('woff'),
+	url('#{$fontsDir}Lato-Hairline.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Lato';
+	src: url('#{$fontsDir}Lato-Bold.woff2') format('woff2'),
+	url('#{$fontsDir}Lato-Bold.woff') format('woff'),
+	url('#{$fontsDir}Lato-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+
+$brand-font-1: 'Lato', sans-serif;
